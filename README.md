@@ -17,13 +17,13 @@ Installation
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
 ```
-php composer.phar require amdz/yii2-translation-gui "*"
+php composer.phar require amdz/yii2-translation-gui "dev-master"
 
 ```
 Or, you may add
 
 ```
-"amdz/yii2-translation-gui": "*"
+"amdz/yii2-translation-gui": "dev-master"
 ```
 
 to the require section of your `composer.json` file and execute `php composer.phar update`.
