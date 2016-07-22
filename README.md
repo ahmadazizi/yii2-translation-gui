@@ -68,8 +68,9 @@ Run the following command to import files:
 ```
 >>> yii translator/import/standard @app/path/to/message/directory
 ```
-or simple run:
+or simply run:
 ```
 >>> yii translator
 ```
 for more instructions.
+If your app command configuration file is separated, make sure that you've already added the required configuration params to your command configuration file.
