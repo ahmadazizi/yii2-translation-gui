@@ -4,7 +4,7 @@ use yii\db\Migration;
 
 class m160722_013957_create_translator_name extends Migration {
 
-  public $tableName = '{{%translator_messages2}}';
+  public $tableName = '{{%translator_messages}}';
 
   public function up() {
     $this->createTable($this->tableName, [
