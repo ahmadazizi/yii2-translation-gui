@@ -1,0 +1,33 @@
+{
+    // package name
+    "name": "amdz/yii2-translation-gui",
+
+    // package type
+    "type": "yii2-extension",
+
+    "description": "Yii2 translation GUI for better management of translation messages while developing.",
+    "keywords": ["yii2", "translate", "message-translation", "GUI"],
+    "license": "GNU General Public License v3.0",
+    "support": {
+        "issues": "https://github.com/ahmadazizi/yii2-translation-gui/issues",
+        "source": "https://github.com/ahmadazizi/yii2-translation-gui"
+    },
+    "authors": [
+        {
+            "name": "Ahmad Azizi",
+            "email": "activepost@gmail.com"
+        }
+    ],
+
+    // package dependencies
+    "require": {
+        "yiisoft/yii2": "*",
+    },
+	
+	// class autoloading specs
+    "autoload": {
+        "psr-4": {
+            "amdz\\yii2Translator\\": ""
+        }
+    }
+}
