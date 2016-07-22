@@ -8,6 +8,7 @@ Features
 - Uses only a single database table
 - Can generate YII2 standard translation files with one click
 - Command-line interface to import existing translation files(if any)
+- Prevents duplicate key entries
 
 Installation
 ------------
@@ -73,4 +74,5 @@ or simply run:
 >>> yii translator
 ```
 for more instructions.
+
 If your app command configuration file is separated, make sure that you've already added the required configuration params to your command configuration file.
