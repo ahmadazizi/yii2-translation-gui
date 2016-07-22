@@ -58,7 +58,7 @@ Migrations
 ---------------------------
 To create the translation database table, execute the following migration:
 ```
-yii migrate --migrationPath=@amdz/yii2-translator/migrations
+yii migrate --migrationPath=@amdz/yii2Translator/migrations
 ```
 
 Importing existing translation files(if any)
