@@ -1,8 +1,6 @@
 {
-    // package name
     "name": "amdz/yii2-translation-gui",
 
-    // package type
     "type": "yii2-extension",
 
     "description": "Yii2 translation GUI for better management of translation messages while developing.",
@@ -19,12 +17,10 @@
         }
     ],
 
-    // package dependencies
     "require": {
         "yiisoft/yii2": "*",
     },
 	
-	// class autoloading specs
     "autoload": {
         "psr-4": {
             "amdz\\yii2Translator\\": ""
