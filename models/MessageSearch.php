@@ -68,6 +68,7 @@ class MessageSearch extends Message
             ->andFilterWhere(['like', 'value', $this->value]);
         
        $query->andFilterWhere(['lang' => \Yii::$app->controller->module->defaultLanguage]);
+       $query->orderBy(['id' => SORT_DESC]);
         
         
 
