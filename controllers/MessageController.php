@@ -195,7 +195,7 @@ class MessageController extends Controller {
         foreach (Message::find()->where(['lang' => $lang, 'category' => $catName])->orderBy('key')->all() as $message) {
           $key = addslashes($message->key);
           $value = addslashes($message->value);
-          $output .= "\t'{$key}' => '{$value}',\r\n";
+          $output .= "\t\"{$key}\" => \"{$value}\",\r\n";
         }
         $output = "<?php\r\nreturn [ \r\n" . $output . "];";
         $h = fopen($fileName, 'w');

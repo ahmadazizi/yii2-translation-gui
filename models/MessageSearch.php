@@ -69,7 +69,10 @@ class MessageSearch extends Message
         
        $query->andFilterWhere(['lang' => \Yii::$app->controller->module->defaultLanguage]);
        $query->orderBy(['id' => SORT_DESC]);
+<<<<<<< HEAD
         
+=======
+>>>>>>> 774cac1ad91008f3f58e40dcea5cf93c569cdd05
         
 
         return $dataProvider;
